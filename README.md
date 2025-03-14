@@ -56,9 +56,9 @@ Sofía Retamales | Cátedra | sretamales@uc.cl
 Daniel Salgado | Proyecto | daniel_salgado@uc.cl
 David Parra | Proyecto | davidparra812@uc.cl
 Felipe Valderrama | Proyecto | felipe.valderrama@uc.cl
+Francisco Larrain Jr | Proyecto | fblarrain@uc.cl
 Gabriel Segovia | Proyecto | gesegovia@uc.cl
 Gustavo Morán | Proyecto | gustavo.morn@uc.cl
-José Carter | Proyecto | jrcarter@uc.cl
 Mateo Andrade | Proyecto | mateo.andrade@uc.cl
 Tomás Ketterer | Desarrollo | tketterer@uc.cl
 Waldo Seguel | Desarrollo | waldo.seguel@uc.cl
