@@ -8,3 +8,6 @@ Repositorios años anteriores
 - https://github.com/IIC2413/Syllabus-2022-2
 - https://github.com/IIC2413/Syllabus-2023-1
 - https://github.com/IIC2413/Syllabus-2023-2
+  
+Manual de lenguaje SQL de Postgresql
+- https://www.postgresql.org/docs/17/sql.html
