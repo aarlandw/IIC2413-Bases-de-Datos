@@ -87,7 +87,7 @@ Semana | Contenido clase						                            | Taller             |
 #5     | SQL I                        	                |    SQL I             | SQL I             |  Enunciado E1 (L)
 #6     | SQL II                           |    SQL II                |  SQL II            | Entrega E1 (D)
 #7     | Consultas I1             |                    |	              |   I1 (W) + Enunciado E2 (L)
-#8     | Lógica en la BD, Triggers, Vistas, SP             |                    |   SP, Triggers                     | Entrega E2 (D)
+#8     | Lógica en la BD, Triggers, Vistas, SP             |    SP, Triggers            |   SP, Triggers                     | Entrega E2 (D)
 Receso |            |           |           | 
 #9     | Transacciones y recuperación ante fallas               | Schedules            |     PHP + SQL      | Enunciado E3 (L)
 #10    | Fundamentos de S.O. y Almacenamiento |   Logging                 |     Integración BD PHP + SQL                   | 
