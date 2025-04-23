@@ -1,10 +1,30 @@
 # Entrega 0 - Bases de datos IIC2413
 
-### Student Credentials
+- [Entrega 0 - Bases de datos IIC2413](#entrega-0---bases-de-datos-iic2413)
+  - [Student Credentials](#student-credentials)
+  - [Server Access Credentials](#server-access-credentials)
+  - [Report Content](#report-content)
+    - [Project Structure](#project-structure)
+      - [File Descriptions](#file-descriptions)
+    - [Analysis of the Data Provided in the Files](#analysis-of-the-data-provided-in-the-files)
+    - [Types of Data Errors Detected by the Program and the Solution Used](#types-of-data-errors-detected-by-the-program-and-the-solution-used)
+    - [Names of the Output Files and Explanation of Their Content](#names-of-the-output-files-and-explanation-of-their-content)
+    - [Instructions to Execute the Program](#instructions-to-execute-the-program)
+    - [Future Improvements](#future-improvements)
+      - [Missing features](#missing-features)
+      - [Code Quality](#code-quality)
+  - [Feedback and Score](#feedback-and-score)
+    - [Puntajes](#puntajes)
+      - [Arreglo de datos](#arreglo-de-datos)
+      - [Descarte de datos](#descarte-de-datos)
+    - [Comentario ayudante](#comentario-ayudante)
+
+## Student Credentials
+
 **Name:** William Aarland  
 **Student Number:** 24410853  
 
-### Server Access Credentials
+## Server Access Credentials
 
 **UC User:** waarland0@bdd1.ing.puc.cl  
 **Password:** 24410853  
@@ -144,3 +164,43 @@ It is essential to provide clear instructions to execute the program (all necess
 - Due to lack of time there areas of code duplication, and code quality could be improved by using the principles of modularity, abstraction, and orthogonalization. This would make the code more readable, and easier to maintain.
 
 - Performance optimization by not loading the entire files into memory.
+
+## Feedback and Score
+
+I received a score of $8.05$ out of $10$ points in this task.
+
+Below is tables of the points I received for the different parts, and evaluation points in the task. Additionaly, at the end, I have written the comments from the evaluation.
+
+### Puntajes
+
+#### Arreglo de datos
+
+| **Dato**           | **Puntaje recibido** | **Puntaje máximo** |
+| -------------- | :--------------: | :------------: |
+| RUN            |      $0.8$       |     $0.4$      |
+| DV             |      $0.4$       |     $0.4$      |
+| Correo         |      $1.2$       |     $1.2$      |
+| Teléfono       |      $0.4$       |     $0.4$      |
+| Fecha          |      $0.4$       |     $0.4$      |
+| Monto          |      $0.3$       |     $0.4$      |
+| Fecha_llegada  |      $0.4$       |     $0.4$      |
+| Precio_asiento |      $0.4$       |     $0.4$      |
+
+#### Descarte de datos
+
+| **Dato**              | **Puntaje Recibido** | **Puntaje Máximo** |
+| --------------------- | :------------------: | :----------------: |
+| Archivo_empleados     |         $0$          |       $0.5$        |
+| Archivos_usuarios     |         $0$          |       $0.5$        |
+| Descuentos por format |        $0.05$        |        $1$         |
+| Tiempo ejecución      |         $1$          |        $1$         |
+| README                |        $1.6$         |       $1.6$        |
+
+### Comentario ayudante
+
+- Se descartaron datos que no se debian descartar.
+- Columna Faltante: en aviones.csv falto la columna 'clase'.
+- Archivos Faltantes:
+  - datos_descartados_usuarios.csv
+  - datos_descartados_empleados.csv
+  
