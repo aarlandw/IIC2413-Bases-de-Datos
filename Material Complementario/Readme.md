@@ -27,3 +27,6 @@ PHP
 
 Google Colab
 - https://colab.research.google.com/#scrollTo=5fCEDCU_qrC0
+
+Jupyter notebook
+- https://docs.jupyter.org/en/latest/
