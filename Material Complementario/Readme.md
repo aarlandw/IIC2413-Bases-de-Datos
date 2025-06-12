@@ -27,6 +27,9 @@ Recuperación de fallas
 Almacenamiento e índices 
 - [Database Management Systems, 3rd edition, de Raghu Ramakrishnan y Johannes Gehrke. Part III](https://bmdigitales-bibliotecas-uc-cl.pucdechile.idm.oclc.org/html5/DATABASE%20MANAGEMENT%20SYSTEMS/306/)
 
+Evaluación de consultas
+- [Database Management Systems, 3rd edition, de Raghu Ramakrishnan y Johannes Gehrke. Part IV](https://bmdigitales-bibliotecas-uc-cl.pucdechile.idm.oclc.org/html5/DATABASE%20MANAGEMENT%20SYSTEMS/428/)
+
 MANUALES
 
 Manual de lenguaje SQL de Postgresql
