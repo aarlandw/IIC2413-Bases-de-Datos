@@ -23,20 +23,29 @@ if ($clave !== $repetir_clave) {
 try {
     $db = conectarBD();
 
-    $stmt = $db->prepare("INGRESE SU CONSULTA SQL AQUI");
+    // Verificar si ya existe el usuario o correo
+    $stmt = $db->prepare("SELECT correo FROM persona WHERE username = :username OR correo = :email");
     $stmt->bindParam(':email', $email);
+    $stmt->bindParam(':username', $usuario);
     $stmt->execute();
 
-    if ($stmt->fetch()) {
+    if ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    if ($row['username'] === $usuario) {
+        $_SESSION['error'] = 'El nombre de usuario ya existe';
+    } elseif ($row['correo'] === $email) {
         $_SESSION['error'] = 'El correo ya existe';
-        header('Location: registro.php');
-        exit();
+    } else {
+        $_SESSION['error'] = 'El usuario o correo ya existe';
     }
+    header('Location: registro.php');
+    exit();
+}
 
     $db->beginTransaction();
 
     $stmt = $db->prepare("
-        Hacer la consulta para insertar el nuevo usuario
+        INSERT INTO persona (correo, nombre, contrasena, username, telefono_contacto, run, dv)
+        VALUES (:email, :nombre, :contrasena, :username, :telefono, :run, :dv)
     ");
     $stmt->bindParam(':username', $usuario);
     $stmt->bindParam(':contrasena', $clave);
@@ -47,6 +56,12 @@ try {
     $stmt->bindParam(':dv', $dv);
     $stmt->execute();
 
+    $stmt = $db->prepare("
+        INSERT INTO usuario (correo, puntos)
+        VALUES (:email, 0)
+    ");
+    $stmt->bindParam(':email', $email);
+    $stmt->execute();
     $db->commit();
 
     unset($_SESSION['form_data']);
@@ -56,8 +71,9 @@ try {
 
 } catch (Exception $e) {
     if ($db->inTransaction()) $db->rollBack();
-    $_SESSION['error'] = 'Usuario no se puede registrar';
+    $_SESSION['error'] = 'Usuario no se puede registrar. Detalle: ' . $e->getMessage();
     header('Location: registro.php');
     exit();
 }
 ?>
+
