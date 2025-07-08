@@ -1,0 +1,34 @@
+Viajeros,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7
+Nombre,Correo,Contraseña,Username,Teléfono,RUN,DV,Edad
+Lucas Viajero,lucas@edubus.cal,lucas123,lucasviajero,\+56 9 3456 7890,20987654,3,
+Cata Bienestar,,,,,,,23
+Jorge Bienestar,,,,,,,22
+Lucas Viajero,,,,,,,23
+Martina Tattaglia,,,,,,,22
+Tomás Barzini,,,,,,,22
+Vincenzo Martino,,,,,,,22
+Agustino Beckerini,,,,,,,23
+Consuelo Inostrozini,,,,,,,22
+Ignacio Garridelli,,,,,,,23
+Olivia Llanini,,,,,,,22
+Paula Contessa,,,,,,,23
+Sofía Retamalini,,,,,,,23
+,,,,,,,
+Panoramas,,,,,,,
+Nombre,Fecha,,,,,,
+Vino de Mesa Italiano,2025-08-02 00:00:00,,,,,,
+El príncipe di Corleone,2025-08-03 00:00:00,,,,,,
+The Godfather's House,2025-08-04 00:00:00,,,,,,
+Movimiento Antimafia CIDMA,2025-08-05 00:00:00,,,,,,
+,,,,,,,
+Hospedajes,,,,,,,
+Nombre,Check-in,Check-out,,,,,
+La familia,2025-08-02 00:00:00,2025-08-06 00:00:00,,,,,
+,,,,,,,
+transportes,,,,,,,
+Origen,Destino,Fecha salida,Llegada,,,,
+Santiago,Palermo,2025-08-01 03:00:00,2025-08-01 23:00:00,,,,
+Palermo,Santiago,2025-08-06 03:00:00,2025-08-06 23:00:00,,,,
+Origen,Destino,Fecha Salida,Llegada,,,,
+Palermo,Corleone,2025-08-02 06:00:00,2025-08-02 08:00:00,,,,
+Corleone,Palermo,2025-08-05 22:00:00,2025-08-06 00:00:00,,,,
